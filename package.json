@@ -1,0 +1,58 @@
+{
+  "name": "timeline-common",
+  "version": "1.0.3",
+  "description": "时间轴",
+  "main": "lib/timeline.umd.min.js",
+  "private": false,
+  "scripts": {
+    "lib": "vue-cli-service build --target lib --name timeline --dest lib packages/index.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@antv/g2": "^4.0.14",
+    "animate.css": "^4.1.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "less-loader": "^7.0.2",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
+    "timeline-common": "aegle-analytica/timeline",
+    "vue": "^2.6.11",
+    "vue-pdf": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.12.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.25.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.1.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
