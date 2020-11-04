@@ -1,13 +1,13 @@
-# timeline-common
-timeline-common(时间轴组件)，用于时间轴样式展示
+# npm-package-demo-hz
+示例
 ## 安装
 ```
-npm install git+https://github.com/aegle-analytica/timeline-common.git
+npm install git+https://github.com/HZhen/npm-package-demo-hz.git
 ```
 
 ### 引入
 ```
-import components from "timeline-common";
-import 'timeline-common/lib/timeline.css'
+import components from "npm-package-demo-hz";
+import 'npm-package-demo-hz/lib/timeline.css'
 ```
 

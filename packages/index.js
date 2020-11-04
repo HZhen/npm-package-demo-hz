@@ -1,4 +1,4 @@
-// 导入颜色选择器组件
+// 导入组件
 import timeLine from "./timeLine"
 
 // 存储组件列表

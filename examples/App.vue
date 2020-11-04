@@ -12,8 +12,6 @@
 </template>
 
 <script>
-// import components from "timeline-common";
-// import 'timeline-common/lib/timeline.css'
 export default {
   data () {
     return {
